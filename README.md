@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Problem Statement
 
-You can use the [editor on GitHub](https://github.com/devesh-todarwal/LinuxShell/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Shell: Write a C program to implement the command line shell that does the
+following:
+- A prompt should be displayed upon starting the execution of a program and
+it should allow the user to type basic commands one after the other. The
+program must support at least any 6 commands such as ls, cd, mkdir,
+rmdir, rm, cp, mv, etc.
+- For each of the user’s commands entered, a separate child process should be
+created to execute the command and display the output if any.
+Note: Execution should be terminated only when the user types the command exit
+on prompt.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Instructions
 
-### Markdown
+Follow the steps to get the code up and running!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Compile the file protoShell.c using the following command
+                        `gcc protoShell.c -o protoShell.exe -lreadline`
+- Run the protoShell.exe file thus created-
+                        `./protoshell.exe`
+- Use `help` command to know the available commands
+- Use `exit` to close the terminal and stop the shell.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devesh-todarwal/LinuxShell/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Requirements
+- Readline Library
+- A Linux Based Operating System
